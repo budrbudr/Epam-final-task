@@ -1,0 +1,350 @@
+.back-to-catalog{
+    font-family: open_sansbold, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 60px;
+    max-width: 1260px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.promo {
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    max-width: 1300px;
+    display: flex;
+}
+
+.promo--item{
+    position: relative;
+    color: white;
+}
+.promo--name{
+    position: absolute;
+    font-size: 1.7rem;
+    font-family: open_sansbold, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.promo--additional{
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+}
+
+.promo--left{
+    width: 50%;
+
+    background-image: url(../img/adidas-blue.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #324063;
+
+}
+
+.promo--left-name{
+    right: 50px;
+    top: 40px;
+}
+
+.promo--left-additional{
+    font-family: "Times New Roman", sans-serif;
+    color: white !important;
+}
+
+.promo--middle{
+    width: 30%;
+    background-image: url(../img/repair-patches.jpg);
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+    background-position: center;
+    border-left: 1px solid #e7e8e8;
+    border-right: 1px solid #e7e8e8;
+
+}
+
+
+.promo--middle--layer{
+    background-color: rgba(94, 102, 108, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.promo--middle-name{
+    z-index: 3;
+    width: 100%;
+    bottom: 30px;
+}
+
+.promo--middle-additional{
+    font-family: robotoregular, sans-serif;
+    color: white !important;
+}
+
+.promo--right{
+    width: 20%;
+    color: black;
+    background-image: url(../img/random-bag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.promo--right-name{
+    width: 100%;
+    bottom: 30px;
+}
+
+.promo--right-additional{
+    font-family: "Times New Roman", sans-serif;
+    color: #757575 !important;
+}
+
+
+.item-wrapper {
+    width: 100%;
+    height: 560px;
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 1260px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.item-wrapper--left{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.item-wrapper--left-main{
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.item-wrapper--left-previews{
+    height: 30%;
+    display: flex;
+    width: 100%;
+}
+
+.item-wrapper--left-previews--preview{
+    height: 100%;
+    width: calc(100% / 3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.item-wrapper--layer{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.5;
+    display: none;
+}
+
+.item-wrapper--layer.active{
+    display: block;
+    cursor: default;
+}
+
+.item-wrapper--right {
+    width: 50%;
+    padding: 0 0 30px 50px;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.item-wrapper--right--name{
+    font-size: 1.65rem;
+    font-family: robotobold, sans-serif;
+}
+
+.item-wrapper--right--desc{
+    font-size: 1.1rem;
+    font-style: italic;
+    font-family: "Times New Roman", sans-serif;
+}
+
+.item-wrapper--right--price{
+    font-size: 1.60rem;
+    font-family: robotoregular, sans-serif;
+}
+
+.item-wrapper--right--sizes, .item-wrapper--right--colors{
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.item-wrapper--right--block-name{
+    display: block;
+    width: 80px;
+}
+
+.item-wrapper--right--size-button, .item-wrapper--right--color-button{
+    height: 30px;
+    width: 60px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    font-family: open_sansbold, sans-serif;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-wrapper--right--size-button.selected, .item-wrapper--right--color-button.selected{
+    cursor: default;
+    border: 1px solid lightgray;
+}
+
+
+.item-wrapper--add-to-bag{
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    bottom: 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .promo--left{
+        width: 70%;
+    }
+    .promo--middle{
+        width: 30%;
+        border-right: none;
+    }
+
+    .promo--right{
+        display: none;
+    }
+    .promo{
+        height: 250px;
+    }
+    .promo--name{
+        font-size: 1.5rem;
+    }
+    .promo--additional{
+        font-size: 0.9rem;
+    }
+
+    .item-wrapper{
+        height: 900px;
+        flex-direction: column;
+    }
+    .item-wrapper--left{
+        width: 100%;
+        height: 40%;
+        flex-direction: row;
+    }
+    .item-wrapper--right{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .item-wrapper--right--desc{
+        text-align: center;
+        width: 100%;
+    }
+    .item-wrapper--right--name{
+        font-size: 1.3rem;
+    }
+    .item-wrapper--right--desc{
+        font-size: 0.9rem;
+    }
+    .item-wrapper--left-main{
+        width: 70%;
+        height: 100%;
+    }
+    .item-wrapper--left-previews{
+        width: 30%;
+        flex-direction: column;
+        height: 100%;
+    }
+    .item-wrapper--left-previews--preview{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo--middle{
+        display: none;
+    }
+    .promo--left{
+        width: 100%;
+    }
+    .promo{
+        height: 230px;
+    }
+
+    .promo--name{
+        font-size: 1.3rem;
+    }
+    .promo--additional{
+        font-size: 0.85rem;
+    }
+    .promo--left-name{
+        right: 15px;
+        top: 20px;
+    }
+    .item-wrapper{
+        padding: 20px;
+        height: 850px;
+
+    }
+    .item-wrapper--left{
+        flex-direction: column;
+    }
+    .item-wrapper--left-main{
+        height: 70%;
+        width: 100%;
+    }
+    .item-wrapper--left-previews{
+        height: 30%;
+        flex-direction: row;
+        width: 100%;
+    }
+    .item-wrapper--left-previews--preview{
+        width: calc(100% / 3);
+    }
+    .back-to-catalog{
+        padding: 15px 40px;
+        height: 53px;
+    }
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Budrikis Vlad">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <title>Final Task</title>
+    <link rel="stylesheet" href="styles/item-details.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.ico">
+
+</head>
+<body>
+
+
+<header class="header">
+    <nav class="header--navigation">
+        <section class="header--top-row">
+            <div class="header--menu">
+                <img class="header--burger header--menu-button active" src="img/icons/burger.svg" height="18px" width="18px" alt="burgerMenu">
+                <img class="header--cross header--menu-button" src="img/icons/redcrossbtw.svg" height="18px" width="18px" alt="crossMenu">
+            </div>
+            <a class="header--main-logo"></a>
+            <a class="header--bag button">Bag (0)</a>
+            <a class="header--email-signup button">Email sign up</a>
+        </section>
+        <section class="header--bottom-row">
+            <a class="header--catalog-item button">Women</a>
+            <a class="header--catalog-item button">Man</a>
+            <a class="header--catalog-item button">Handbags</a>
+            <a class="header--catalog-item button">Accessories</a>
+            <a class="header--catalog-item button">Sale</a>
+            <a class="header--catalog-item button">New Arrivals</a>
+            <a class="header--catalog-item button">Clearance</a>
+            <a class="header--catalog-item button">Store Locator</a>
+            <div class="header--search">
+                <input class="header--search-input" type="text"  placeholder="Style Name">
+                <img class="header--search-img" src="img/icons/search.svg" height="15px" width="15px" alt="">
+            </div>
+            <div class="header--search--tablet">
+                <input class="header--search--tablet-input" type="text"  placeholder="Style Name">
+                <img class="header--search--tablet-img" src="img/icons/search.svg" height="15px" width="15px" alt="">
+            </div>
+        </section>
+    </nav>
+    <hr class="hr">
+</header>
+<div class="modal-menu">
+    <div class="modal-menu--wrapper">
+        <a class="modal-menu--catalog-item button">Women</a>
+        <a class="modal-menu--catalog-item button">Man</a>
+        <a class="modal-menu--catalog-item button">Handbags</a>
+        <a class="modal-menu--catalog-item button">Accessories</a>
+        <a class="modal-menu--catalog-item button">Sale</a>
+        <a class="modal-menu--catalog-item button">New Arrivals</a>
+        <a class="modal-menu--catalog-item button">Clearance</a>
+        <a class="modal-menu--catalog-item button">Store Locator</a>
+        <div class="modal-menu--search">
+            <input class="modal-menu--search-input" type="text"  placeholder="Style Name">
+            <img class="modal-menu--search-img" src="img/icons/search.svg" height="15px" width="15px" alt="">
+        </div>
+    </div>
+</div>
+
+
+<div class="content">
+    <section class="back-to-catalog button catalog-link">< Back to catalog</section>
+    <hr class="hr">
+    <section class="item-wrapper">
+        <div class="item-wrapper--left">
+            <div class="item-wrapper--left-main"></div>
+            <div class="item-wrapper--left-previews">
+                <div class="item-wrapper--left-previews--preview item-wrapper--left-previews--first">
+                    <div class="item-wrapper--layer active"></div>
+                </div>
+                <div class="item-wrapper--left-previews--preview item-wrapper--left-previews--second">
+                    <div class="item-wrapper--layer"></div>
+                </div>
+                <div class="item-wrapper--left-previews--preview item-wrapper--left-previews--third">
+                    <div class="item-wrapper--layer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="item-wrapper--right">
+            <p class="item-wrapper--right--name">Dark classic fit suit</p>
+            <p class="item-wrapper--right--desc">
+                Featuring fine Italian wool, this elegant suit has pick-stitch edging, cascade buttons at the cuffs
+                and a subtle stripe pattern throughout.
+            </p>
+            <p class="item-wrapper--right--price prices">180.6</p>
+            <div class="item-wrapper--right--sizes">
+                <span class="item-wrapper--right--block-name">Size:</span>
+                <div class="item-wrapper--right--size-button item-wrapper--right--size-button--first selected">UK 52</div>
+                <div class="item-wrapper--right--size-button item-wrapper--right--size-button--second">UK 54</div>
+                <div class="item-wrapper--right--size-button item-wrapper--right--size-button--third">UK 56</div>
+            </div>
+            <div class="item-wrapper--right--colors">
+                <span class="item-wrapper--right--block-name">Colors:</span>
+                <div class="item-wrapper--right--color-button item-wrapper--right--color-button--first selected">Black</div>
+                <div class="item-wrapper--right--color-button item-wrapper--right--color-button--second">Blue</div>
+            </div>
+            <div class="item-wrapper--add-to-bag button-border">Add to Bag</div>
+        </div>
+    </section>
+    <hr class="hr">
+    <section class="promo">
+        <div class="promo--left promo--item item-link button">
+            <p class="promo--left-name promo--name">Adidas Blue
+                <em class="promo--left-additional promo--additional">For men</em>
+            </p>
+        </div>
+        <div class="promo--middle promo--item button item-link">
+            <p class="promo--middle-name promo--name catalog-link">Repair Patches
+                <span class="promo--middle-additional promo--additional prices"> 150.50</span>
+            </p>
+            <div class="promo--middle--layer"></div>
+        </div>
+        <div class="promo--right promo--item button">
+            <p class="promo--right-name promo--name catalog-link">Sale
+                <em class="promo--right-additional promo--additional">-70%</em>
+            </p>
+        </div>
+    </section>
+</div>
+
+
+
+
+
+<footer class="footer">
+    <hr class="hr">
+    <div class="footer--top-row">
+        <div class="footer--top-row--left-side">
+            <section class="footer--top-row--left-side--block">
+                <a class="footer--top-row--left-side--caption">Quick Links</a>
+                <a class="footer--top-row--left-side--item button">Store locator</a>
+                <a class="footer--top-row--left-side--item button">Gift cards</a>
+                <a class="footer--top-row--left-side--item button">Size guide</a>
+                <a class="footer--top-row--left-side--item button">About us</a>
+                <a class="footer--top-row--left-side--item button">Support</a>
+            </section>
+            <section class="footer--top-row--left-side--block">
+                <a class="footer--top-row--left-side--caption">Customer Care</a>
+                <a class="footer--top-row--left-side--item button">Customer service</a>
+                <a class="footer--top-row--left-side--item button">Track my order</a>
+                <a class="footer--top-row--left-side--item button">Return policy</a>
+                <a class="footer--top-row--left-side--item button">Shipping & delivery</a>
+                <a class="footer--top-row--left-side--item button">Contact us</a>
+                <a class="footer--top-row--left-side--item button">Careers</a>
+            </section>
+        </div>
+        <div class="footer--top-row--right-side">
+            <section class="footer--top-row--right-side--top-block footer--top-row--right-side--border-block">
+                <a class="footer--top-row--right-side--caption">Questions</a>
+                <a class="footer--top-row--right-side--item button">
+                    <img class="footer--icon" src="img/icons/twitter-grey.svg" alt="">
+                    Tweet us <strong>@template</strong>
+                </a>
+            </section>
+            <section class="footer--top-row--right-side--top-block">
+                <a class="footer--top-row--right-side--caption">Order by phone</a>
+                <a class="footer--top-row--right-side--item button">8-800-409-47-12</a>
+            </section>
+            <em class="footer--nice-message">
+                We have our own delivery service which operates in 23 major European cities. Delivery time - 3-5 days.
+            </em>
+            <img class="footer--icon footer--icon-hidden-mobile" src="img/icons/facebook.svg" alt="">
+            <img class="footer--icon footer--icon-hidden-mobile" src="img/icons/twitter.svg" alt="">
+        </div>
+    </div>
+    <div class="footer--middle-row">
+        <ul class="footer--middle-row--content">
+            <li class="footer--middle-row--item">
+                <a class="footer--middle-row--notices--item button">Legal notice</a>
+                <a class="footer--middle-row--notices--item button">Privacy policy</a>
+                <a class="footer--middle-row--notices--item button">Site map</a>
+            </li>
+            <li class="footer--middle-row--item">
+                <img class="footer--icon" src="img/icons/facebook.svg" alt="">
+                <img class="footer--icon" src="img/icons/twitter.svg" alt="">
+            </li>
+        </ul>
+    </div>
+    <hr class="hr">
+    <ul class="footer--bottom-row">
+        <li class="footer--copyright">&copy; 2010–2015, The Template Group inc.</li>
+        <li class="footer--share">
+            <span class="button">Share</span>
+            <span class="footer--share-img">1 447</span>
+        </li>
+        <li class="footer--notices">
+            <a class="footer--notices--item button">Legal notice</a>
+            <a class="footer--notices--item button">Privacy policy</a>
+            <a class="footer--notices--item button">Site map</a>
+        </li>
+    </ul>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+<script defer src="data/best-offer.js"></script>
+<script defer src="data/catalog.js"></script>
+<script defer src="scripts/header-footer.js"></script>
+<script defer src="scripts/item-details.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-2 {
+        fill: none;
+        stroke: #00000b;
+        stroke-width: 1.667px;
+      }
+    </style>
+  </defs>
+  <path id="form" class="cls-1" d="M1.667,5H18.333L20,20H0Z"/>
+  <path id="hand" class="cls-2" d="M10,1.01c2.2,0,3.988,2.908,3.988,6.495S12.2,14,10,14,6.013,11.092,6.013,7.5,7.8,1.01,10,1.01Z"/>
+</svg>

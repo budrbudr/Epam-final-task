@@ -1,0 +1,425 @@
+.ad{
+    font-size: 0;
+    max-width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    padding-top: 33%;
+}
+.ad--block{
+    display: flex;
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+}
+
+.ad--right-side{
+    left: 50%;
+    background-image: url(../img/caps-hats-ad.png);
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 0 -30px;
+}
+
+.ad--img--left{
+    width: 100%;
+    height: auto;
+}
+
+.ad--left-side{
+    border-right: 1px solid #e7e8e8;
+    background-image: url(../img/nike-red.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ad--content-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.ad--floating-name{
+    top: 10%;
+    right: 10%;
+    position: absolute;
+    font-family: open_sansbold, sans-serif;
+    font-size: 1.75rem;
+}
+.ad--floating-sale{
+    font-size: 1rem;
+    font-family: "Times New Roman", sans-serif;
+    color: #757575;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+/* best offer stuff */
+.best-offer{
+    text-align: center;
+    padding: 90px 40px;
+
+}
+.best-offer--label{
+    font-size: 3.1rem;
+    font-family: open_sansbold, sans-serif;
+}
+
+.best-offer--desc {
+    font-family: "Times New Roman", sans-serif;
+}
+
+
+.best-offer--top-row{
+    display: flex;
+    height: 550px;
+    width: 100%;
+    padding: 0;
+    margin: 40px 0 0 0;
+    justify-content: space-between;
+}
+
+.best-offer--item{
+    width: 241px;
+    display: inline-block;
+    position: relative;
+}
+
+.best-offer--slider-top{
+    left: 50%;
+    width: 26px;
+    top: 0;
+    position: absolute;
+    cursor: pointer;
+    margin: 0 0 0 -13px;
+}
+
+.best-offer--slider-bottom{
+    width: 25px;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    cursor: pointer;
+    margin: 0 0 0 -13px;
+}
+
+.best-offer--image-holder {
+    width: 100%;
+    height: 340px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 55px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.best-offer--name {
+    width: 100%;
+    position: absolute;
+    bottom: 85px;
+    left: 0;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: robotobold, sans-serif;
+}
+
+.best-offer--price {
+    width: 100%;
+    position: absolute;
+    bottom: 55px;
+    left: 0;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: robotoregular, sans-serif;
+}
+
+
+.best-offer--new {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #f14a58;
+    color: white !important;
+    padding: 3px 5px;
+    font-family: robotoregular, sans-serif;
+    font-size: 0.9rem;
+    display: none;
+}
+.best-offer--new.active{
+    display: block;
+}
+
+.best-offer--middle-item{
+    font-family: robotobold, sans-serif;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.best-offer--total-price{
+    font-size: 2rem;
+    font-family: robotobold, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.best-offer--prev-price{
+    position: absolute;
+    left: 20px;
+    top: 180px;
+    font-size: 1.75rem;
+    font-family: robotoregular, sans-serif;
+    color: #757575;
+}
+
+.best-offer--cross-line {
+    position: absolute;
+    left: 5px;
+    top: 170px;
+    width: 110px;
+    opacity: 0.5;
+}
+
+.best-offer--item--total-price{
+    width: 330px;
+}
+
+.best-offer--add-to-bag{
+    position: absolute;
+    bottom: 100px;
+    margin-left: -150px;
+    left: 50%;
+}
+
+.best-offer--add-to-bag--bottom{
+    width: 50%;
+    margin: 50px auto 0 auto;
+    font-size: 1.25rem;
+    display: none !important;
+}
+
+.best-offer--item--total-price--bottom{
+    height: 120px;
+    width: 300px;
+    margin: 20px auto 0 auto;
+    position: relative;
+    display: none;
+}
+
+.best-offer--cross-line--bottom {
+    position: absolute;
+    left: 25px;
+    top: 0;
+    width: 75px;
+    opacity: 0.5;
+}
+
+.best-offer--prev-price--bottom{
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    font-size: 1rem;
+    font-family: robotoregular, sans-serif;
+    color: #757575;
+}
+
+.best-offer--total-price--bottom{
+    font-size: 1.75rem;
+    font-family: robotobold, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.best-offer--total-price--bottom:before{
+    content: "= £";
+}
+
+/* new arrivals stuff */
+.new-arrivals {
+    box-sizing: border-box;
+    padding: 50px 40px;
+    width: 100%;
+}
+
+.new-arrivals--title {
+    font-size: 3.1rem;
+    font-family: open_sansbold, sans-serif;
+    text-align: center;
+    display: block;
+    margin: 0 0 30px 0;
+}
+
+.new-arrivals--all-arrivals{
+    margin: 40px auto 0 auto;
+}
+
+.new-arrivals--items-itself{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.new-arrivals--item{
+    width: 241px;
+    display: inline-block;
+    position: relative;
+}
+
+.new-arrivals--image-holder{
+    width: 100%;
+    height: 340px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/boyfriend-tshirt-bohemian.jpg");
+}
+
+.new-arrivals--name{
+    width: 100%;
+    position: absolute;
+    bottom: 28px;
+    left: 0;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: robotobold, sans-serif;
+}
+
+.new-arrivals--price{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: robotoregular, sans-serif;
+}
+
+.new-arrivals--new{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: #f14a58;
+    color: white;
+    padding: 3px 5px;
+    font-family: robotoregular, sans-serif;
+    font-size: 0.9rem;
+    display: none;
+}
+
+.new-arrivals--new.active{
+    display: block;
+}
+.new-arrivals--gap{
+    flex: 1 0 18px;
+}
+
+@media (max-width: 1024px) {
+    .ad--floating-name{
+        font-size: 1.4rem;
+    }
+    .best-offer--add-to-bag--bottom{
+        display: flex !important;
+    }
+    .best-offer--add-to-bag{
+        display: none !important;
+    }
+    .best-offer--item--total-price{
+        width: 200px;
+    }
+    .best-offer--label, .new-arrivals--title{
+        font-size: 2.5rem;
+    }
+    .best-offer--desc{
+        font-size: 1rem;
+    }
+    .new-arrivals--item:nth-child(7n), .new-arrivals--gap:nth-child(6n){
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .ad--right-side{
+        display: none;
+    }
+    .ad--left-side{
+        width: 100%;
+        border: 0;
+    }
+    .ad{
+        padding-top: 50%;
+    }
+    .best-offer, .new-arrivals{
+        padding: 60px 20px;
+    }
+    .best-offer--hide{
+        display: none;
+    }
+    .best-offer--top-row{
+        height: 450px;
+        justify-content: space-around;
+    }
+
+    .best-offer--item, .new-arrivals--item{
+        width: 180px;
+    }
+
+    .best-offer--image-holder, .new-arrivals--image-holder{
+        height: 270px;
+    }
+    .best-offer--add-to-bag--bottom{
+        margin-top: 20px;
+    }
+    .best-offer--item--total-price--bottom{
+        display: block;
+    }
+    .best-offer--label, .new-arrivals--title{
+        font-size: 1.625rem;
+    }
+    .best-offer--desc{
+        font-size: 0.9rem;
+    }
+    .best-offer--name, .new-arrivals--name{
+        font-size: 0.75rem;
+    }
+    .best-offer--price, .new-arrivals--price{
+        font-size: 0.75rem;
+    }
+    .best-offer--middle-item{
+        padding: 0 5px;
+        font-size: 1.5rem;
+    }
+
+    .new-arrivals--items-itself{
+        height: 350px;
+    }
+
+    .new-arrivals--item:nth-child(5n), .new-arrivals--gap:nth-child(4n){
+        display: none;
+    }
+}
